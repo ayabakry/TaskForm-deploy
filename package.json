@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ayabakry.github.io/TaskForm-deploy",
   "name": "task",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "babel-eslint": "^10.1.0",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-bootstrap-form": "^0.1.4-beta6",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
