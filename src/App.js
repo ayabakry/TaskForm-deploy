@@ -11,8 +11,8 @@ function App() {
      
       <Switch>
 
-        <Route exact path={"/"} component={<Formm />} />
-        <Route exact path={"/thanks"} component={<Thanks />} />
+        <Route exact path={"/"} component={Formm} />
+        <Route exact path={"/thanks"} component={Thanks} />
 
 
       </Switch>
