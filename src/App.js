@@ -1,21 +1,22 @@
-
+import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch,Routes } from 'react-router-dom';
 import Formm from './Component/Form';
 import Thanks from './Component/Thanks';
+// import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
 function App() {
   return (
     <BrowserRouter>
      
-      <Switch>
+      <Routes>
 
-        <Route exact path={"/"} component={Formm} />
-        <Route exact path={"/thanks"} component={Thanks} />
+        <Route exact path={"/"} element={<Formm />} />
+        <Route exact path={"/thanks"} element={<Thanks />} />
 
 
-      </Switch>
+      </Routes>
 
     </BrowserRouter>
 
