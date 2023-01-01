@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/TaskForm-deploy/static/css/main.b447fe4c.css",
+    "main.js": "/TaskForm-deploy/static/js/main.c0e9a6de.js",
+    "static/js/787.a5a00b74.chunk.js": "/TaskForm-deploy/static/js/787.a5a00b74.chunk.js",
+    "static/media/formImg.jpg": "/TaskForm-deploy/static/media/formImg.07c9b73c4f90446fc0a3.jpg",
+    "static/media/thank.png": "/TaskForm-deploy/static/media/thank.86d6baac952951a1b25f.png",
+    "index.html": "/TaskForm-deploy/index.html",
+    "main.b447fe4c.css.map": "/TaskForm-deploy/static/css/main.b447fe4c.css.map",
+    "main.c0e9a6de.js.map": "/TaskForm-deploy/static/js/main.c0e9a6de.js.map",
+    "787.a5a00b74.chunk.js.map": "/TaskForm-deploy/static/js/787.a5a00b74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b447fe4c.css",
+    "static/js/main.c0e9a6de.js"
+  ]
+}
